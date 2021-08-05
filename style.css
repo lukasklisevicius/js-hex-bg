@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+h1{
+    margin: 20px 0;
+    color: #fff;
+}
+
+button{
+    width: 200px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.99);
+}
